@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(237, 220, 253);
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.add {
+    width: 100%;    
+    position: fixed;
+
+}
+
+.btn {
+    margin-bottom: 30px;
+}
+
+.divmain {
+    display: inline-block;
+}
+
+img {
+    height: 120px
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.pokemon {
+    border: 1px solid rgb(200, 167, 231);
+    background-color: rgba(222, 187, 255, 0.507);
+    border-radius: 10px;
+    width: 170px;
+    height: 210px;
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+button {
+    height: 30px;
+    color: black;
+    background-color: rgb(200, 167, 231);
+    border: none;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px
+}
+
+button:hover {
+    background-color: rgb(237, 220, 253);
+    border: 1px solid rgb(200, 167, 231);;
+    color: black
+}
