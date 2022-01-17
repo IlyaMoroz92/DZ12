@@ -1,15 +1,18 @@
 body {
-    background-color: rgb(237, 220, 253);
+    background-image: url(/img/1618592772_14-funart_pro-p-oboi-fon-anime-polyana-15.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
     font-size: 16px;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+
 .add {
     width: 100%;    
     position: fixed;
-
 }
 
 .btn {
@@ -18,27 +21,27 @@ body {
 
 .divmain {
     display: inline-block;
+    margin: 0 auto;
 }
 
 img {
-    height: 120px
+    height: 120px;
+    margin: auto;
+    display: block;
 }
 
 .buttons {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .pokemon {
-    border: 1px solid rgb(200, 167, 231);
-    background-color: rgba(222, 187, 255, 0.507);
+    border: 1px solid rgb(53, 11, 94);
+    background-color: rgba(55, 17, 90, 0.207);
     border-radius: 10px;
     width: 170px;
-    height: 210px;
     margin: 7px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 div {
@@ -49,7 +52,7 @@ div {
 button {
     height: 30px;
     color: black;
-    background-color: rgb(200, 167, 231);
+    background-color: rgba(55, 17, 90, 0.307);
     border: none;
     cursor: pointer;
     margin: 2px;
@@ -57,11 +60,52 @@ button {
     font-size: 14px;
     text-align: center;
     font-weight: 500;
-    padding: 5px
+    padding: 5px;
+    color: aliceblue; 
 }
 
 button:hover {
-    background-color: rgb(237, 220, 253);
-    border: 1px solid rgb(200, 167, 231);;
+    background-color: rgba(43, 8, 77, 0.425);
     color: black
+}
+
+
+progress {
+    cursor: pointer;
+    width: 100px;
+    margin: 0 5px
+}
+
+.progress_health {
+    width: 95%;
+}
+
+.spanName {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+span {
+    font-weight: 700;
+    color: white;
+}
+
+.btn {
+    height: 70px;
+}
+
+.add {
+    background-image: url(/img/icons8-pokeball-2-96.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 90px;
+    width: 90px;
+    margin-bottom: 500px;
+}
+
+.add:hover {
+    background-image: url(/img/icons8-открыть-pokeball-96.png);
+    background-color: transparent;
 }

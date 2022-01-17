@@ -1,55 +1,409 @@
-let i;
-let p0 = new Pokemons(99, '/img/svg/0.svg', 'charmander', 10, 10, 10)
-let p1 = new Pokemons(82, '/img/svg/1.svg', 'abra', 9, 10, 8)
-let p2 = new Pokemons(97, '/img/svg/2.svg', 'arcanine', 10, 8, 10)
-let p3 = new Pokemons(77, '/img/svg/3.svg', 'articuno', 10, 8, 8)
-let p4 = new Pokemons(67, '/img/svg/4.svg', 'blastoise', 10, 9, 9)
-let p5 = new Pokemons(70, '/img/svg/5.svg', 'bulbasaur', 10, 10, 10)
-let p6 = new Pokemons(81, '/img/svg/6.svg', 'butterfree', 9, 10, 8)
-let p7 = new Pokemons(92, '/img/svg/7.svg', 'caterpie', 10, 8, 10)
-let p8 = new Pokemons(72, '/img/svg/8.svg', 'chansey', 10, 8, 8)
-let p9 = new Pokemons(62, '/img/svg/9.svg', 'charizard', 10, 9, 9)
-let p10 = new Pokemons(100, '/img/svg/10.svg', 'clefairy', 10, 10, 10)
-let p11 = new Pokemons(82, '/img/svg/11.svg', 'cubone', 9, 10, 8)
-let p12 = new Pokemons(93, '/img/svg/12.svg', 'dragonair', 10, 8, 10)
-let p13 = new Pokemons(74, '/img/svg/13.svg', 'dragonite', 10, 8, 8)
-let p14 = new Pokemons(64, '/img/svg/14.svg', 'eevee', 10, 9, 9)
-let p15 = new Pokemons(100, '/img/svg/15.svg', 'electabuzz', 10, 10, 10)
-let p16 = new Pokemons(85, '/img/svg/16.svg', 'flareon', 9, 10, 8)
-let p17 = new Pokemons(95, '/img/svg/17.svg', 'gastly', 10, 8, 10)
-let p18 = new Pokemons(70, '/img/svg/18.svg', 'gengar', 10, 8, 8)
-let p19 = new Pokemons(65, '/img/svg/19.svg', 'geodude', 10, 9, 9)
-let p20 = new Pokemons(99, '/img/svg/20.svg', 'gyarados', 10, 10, 10)
-let p21 = new Pokemons(99, '/img/svg/21.svg', 'haunter', 9, 10, 8)
-let p22 = new Pokemons(96, '/img/svg/22.svg', 'horsea', 10, 8, 10)
-let p23 = new Pokemons(76, '/img/svg/23.svg', 'ivysaur', 10, 8, 8)
-let p24 = new Pokemons(65, '/img/svg/24.svg', 'jigglypuff', 10, 9, 9)
-let p25 = new Pokemons(100, '/img/svg/25.svg', 'jolteon', 10, 10, 10)
-let p26 = new Pokemons(89, '/img/svg/26.svg', 'koffing', 9, 10, 8)
-let p27 = new Pokemons(99, '/img/svg/27.svg', 'lapras', 10, 8, 10)
-let p28 = new Pokemons(79, '/img/svg/28.svg', 'machamp', 10, 8, 8)
-let p29 = new Pokemons(69, '/img/svg/29.svg', 'magikarp', 10, 9, 9)
-let p30 = new Pokemons(100, '/img/svg/30.svg', 'charizard', 10, 10, 10)
-let p31 = new Pokemons(81, '/img/svg/31.svg', 'meowth', 9, 10, 8)
-let p32 = new Pokemons(91, '/img/svg/32.svg', 'mew', 10, 8, 10)
-let p33 = new Pokemons(71, '/img/svg/33.svg', 'mewtwo', 10, 8, 8)
-let p34 = new Pokemons(61, '/img/svg/34.svg', 'moltres', 10, 9, 9)
-let p35 = new Pokemons(100, '/img/svg/35.svg', 'ninetales', 10, 10, 10)
-let p36 = new Pokemons(86, '/img/svg/36.svg', 'onix', 9, 10, 8)
-let p37 = new Pokemons(96, '/img/svg/37.svg', 'pidgeot', 10, 8, 10)
-let p38 = new Pokemons(76, '/img/svg/38.svg', 'pidgey', 10, 8, 8)
-let p39 = new Pokemons(66, '/img/svg/39.svg', 'poliwhirl', 10, 9, 9)
-let p40 = new Pokemons(66, '/img/svg/40.svg', 'ponyta', 10, 9, 9)
-let p41 = new Pokemons(78, '/img/svg/41.svg', 'psyduck', 10, 9, 9)
-let p42 = new Pokemons(78, '/img/svg/42.svg', 'raichu', 10, 9, 9)
-let p43 = new Pokemons(79, '/img/svg/43.svg', 'rattata', 10, 9, 9)
-let p44 = new Pokemons(88, '/img/svg/44.svg', 'scyther', 10, 9, 9)
-let p45 = new Pokemons(83, '/img/svg/45.svg', 'slowpoke', 10, 9, 9)
-let p46 = new Pokemons(93, '/img/svg/46.svg', 'snorlax', 10, 9, 9)
-let p47 = new Pokemons(82, '/img/svg/47.svg', 'squirtle', 10, 9, 9)
-let p48 = new Pokemons(89, '/img/svg/48.svg', 'vaporeon', 10, 9, 9)
-let p49 = new Pokemons(97, '/img/svg/49.svg', 'venusaur', 10, 9, 9)
-let p50 = new Pokemons(69, '/img/svg/50.svg', 'wartortle', 10, 9, 9)
-let p51 = new Pokemons(79, '/img/svg/51.svg', 'charmeleon-', 10, 9, 9)
 
-let arr = [p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25, p26, p27, p28, p29, p30, p31, p32, p33, p34, p35, p36, p37, p38, p39, p40, p41, p42, p43, p44, p45, p46, p47, p48, p49, p50, p51];
+const arr = [
+    {
+        pokeHealth: 600,
+        pokeImg: '/img/svg/0.svg',
+        pokeName: 'charmander',
+        pokeFood: 100,
+        pokeClean: 80,
+        pokePlay: 70
+    },
+    {
+        pokeHealth: 500,
+        pokeImg: '/img/svg/1.svg',
+        pokeName: 'abra',
+        pokeFood: 80,
+        pokeClean: 100,
+        pokePlay: 70
+    },
+    {
+        pokeHealth: 550,
+        pokeImg: '/img/svg/2.svg',
+        pokeName: 'arcanine',
+        pokeFood: 90,
+        pokeClean: 70,
+        pokePlay: 80
+    },
+    {
+        pokeHealth: 700,
+        pokeImg: '/img/svg/3.svg',
+        pokeName: 'articuno',
+        pokeFood: 90,
+        pokeClean: 70,
+        pokePlay: 80
+    },
+    {
+        pokeHealth: 750,
+        pokeImg: '/img/svg/4.svg',
+        pokeName: 'blastoise',
+        pokeFood: 90,
+        pokeClean: 70,
+        pokePlay: 80
+    },
+    {
+        pokeHealth: 800,
+        pokeImg: '/img/svg/5.svg',
+        pokeName: 'bulbasaur',
+        pokeFood: 120,
+        pokeClean: 100,
+        pokePlay: 110
+    },
+    {
+        pokeHealth: 400,
+        pokeImg: '/img/svg/6.svg',
+        pokeName: 'butterfree',
+        pokeFood: 50,
+        pokeClean: 70,
+        pokePlay: 90
+    },
+    {
+        pokeHealth: 600,
+        pokeImg: '/img/svg/7.svg',
+        pokeName: 'caterpie',
+        pokeFood: 70,
+        pokeClean: 90,
+        pokePlay: 75
+    },
+    {
+        pokeHealth: 500,
+        pokeImg: '/img/svg/8.svg',
+        pokeName: 'chansey',
+        pokeFood: 60,
+        pokeClean: 80,
+        pokePlay: 66
+    },
+    {
+        pokeHealth: 800,
+        pokeImg: '/img/svg/9.svg',
+        pokeName: 'charizard',
+        pokeFood: 70,
+        pokeClean: 60,
+        pokePlay: 80
+    },
+    {
+        pokeHealth: 600,
+        pokeImg: '/img/svg/10.svg',
+        pokeName: 'clefairy',
+        pokeFood: 90,
+        pokeClean: 100,
+        pokePlay: 95
+    },
+    {
+        pokeHealth: 500,
+        pokeImg: '/img/svg/11.svg',
+        pokeName: 'cubone',
+        pokeFood: 50,
+        pokeClean: 80,
+        pokePlay: 100
+    },
+    {
+        pokeHealth: 550,
+        pokeImg: '/img/svg/12.svg',
+        pokeName: 'dragonair',
+        pokeFood: 90,
+        pokeClean: 70,
+        pokePlay: 60
+    },
+    {
+        pokeHealth: 700,
+        pokeImg: '/img/svg/13.svg',
+        pokeName: 'dragonite',
+        pokeFood: 90,
+        pokeClean: 100,
+        pokePlay: 95
+    },
+    {
+        pokeHealth: 750,
+        pokeImg: '/img/svg/14.svg',
+        pokeName: 'eevee',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 99
+    },
+    {
+        pokeHealth: 800,
+        pokeImg: '/img/svg/15.svg',
+        pokeName: 'electabuzz',
+        pokeFood: 110,
+        pokeClean: 120,
+        pokePlay: 100
+    },
+    {
+        pokeHealth: 400,
+        pokeImg: '/img/svg/16.svg',
+        pokeName: 'flareon',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 70
+    },
+    {
+        pokeHealth: 600,
+        pokeImg: '/img/svg/17.svg',
+        pokeName: 'gastly',
+        pokeFood: 90,
+        pokeClean: 100,
+        pokePlay: 95
+    },
+    {
+        pokeHealth: 500,
+        pokeImg: '/img/svg/18.svg',
+        pokeName: 'gengar',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 99
+    },
+    {
+        pokeHealth: 800,
+        pokeImg: '/img/svg/19.svg',
+        pokeName: 'charmeleon',
+        pokeFood: 80,
+        pokeClean: 60,
+        pokePlay: 70
+    },    {
+        pokeHealth: 600,
+        pokeImg: '/img/svg/20.svg',
+        pokeName: 'gyarados',
+        pokeFood: 90,
+        pokeClean: 100,
+        pokePlay: 95
+    },
+    {
+        pokeHealth: 500,
+        pokeImg: '/img/svg/21.svg',
+        pokeName: 'haunter',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 99
+    },
+    {
+        pokeHealth: 550,
+        pokeImg: '/img/svg/22.svg',
+        pokeName: 'horsea',
+        pokeFood: 50,
+        pokeClean: 70,
+        pokePlay: 79
+    },
+    {
+        pokeHealth: 700,
+        pokeImg: '/img/svg/23.svg',
+        pokeName: 'ivysaur',
+        pokeFood: 90,
+        pokeClean: 100,
+        pokePlay: 95
+    },
+    {
+        pokeHealth: 750,
+        pokeImg: '/img/svg/24.svg',
+        pokeName: 'jigglypuff',
+        pokeFood: 65,
+        pokeClean: 70,
+        pokePlay: 75
+    },
+    {
+        pokeHealth: 800,
+        pokeImg: '/img/svg/25.svg',
+        pokeName: 'jolteon',
+        pokeFood: 80,
+        pokeClean: 120,
+        pokePlay: 100
+    },
+    {
+        pokeHealth: 400,
+        pokeImg: '/img/svg/26.svg',
+        pokeName: 'koffing',
+        pokeFood: 65,
+        pokeClean: 70,
+        pokePlay: 75
+    },
+    {
+        pokeHealth: 600,
+        pokeImg: '/img/svg/27.svg',
+        pokeName: 'lapras',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 99
+    },
+    {
+        pokeHealth: 500,
+        pokeImg: '/img/svg/28.svg',
+        pokeName: 'machamp',
+        pokeFood: 65,
+        pokeClean: 70,
+        pokePlay: 75
+    },
+    {
+        pokeHealth: 800,
+        pokeImg: '/img/svg/29.svg',
+        pokeName: 'magikarp',
+        pokeFood: 65,
+        pokeClean: 70,
+        pokePlay: 75
+    },    {
+        pokeHealth: 600,
+        pokeImg: '/img/svg/30.svg',
+        pokeName: 'zapdos',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 99
+    },
+    {
+        pokeHealth: 500,
+        pokeImg: '/img/svg/31.svg',
+        pokeName: 'meowth',
+        pokeFood: 100,
+        pokeClean: 80,
+        pokePlay: 70
+    },
+    {
+        pokeHealth: 550,
+        pokeImg: '/img/svg/32.svg',
+        pokeName: 'mew',
+        pokeFood: 80,
+        pokeClean: 70,
+        pokePlay: 60
+    },
+    {
+        pokeHealth: 700,
+        pokeImg: '/img/svg/33.svg',
+        pokeName: 'mewtwo',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 99
+    },
+    {
+        pokeHealth: 750,
+        pokeImg: '/img/svg/34.svg',
+        pokeName: 'moltres',
+        pokeFood: 65,
+        pokeClean: 70,
+        pokePlay: 75
+    },
+    {
+        pokeHealth: 800,
+        pokeImg: '/img/svg/35.svg',
+        pokeName: 'ninetales',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 99
+    },
+    {
+        pokeHealth: 400,
+        pokeImg: '/img/svg/36.svg',
+        pokeName: 'onix',
+        pokeFood: 60,
+        pokeClean: 70,
+        pokePlay: 50
+    },
+    {
+        pokeHealth: 600,
+        pokeImg: '/img/svg/37.svg',
+        pokeName: 'pidgeot',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 99
+    },
+    {
+        pokeHealth: 500,
+        pokeImg: '/img/svg/38.svg',
+        pokeName: 'pidgey',
+        pokeFood: 65,
+        pokeClean: 70,
+        pokePlay: 75
+    },
+    {
+        pokeHealth: 800,
+        pokeImg: '/img/svg/39.svg',
+        pokeName: 'poliwhirl',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 99
+    },    {
+        pokeHealth: 600,
+        pokeImg: '/img/svg/40.svg',
+        pokeName: 'ponyta',
+        pokeFood: 90,
+        pokeClean: 100,
+        pokePlay: 120
+    },
+    {
+        pokeHealth: 500,
+        pokeImg: '/img/svg/41.svg',
+        pokeName: 'psyduck',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 99
+    },
+    {
+        pokeHealth: 550,
+        pokeImg: '/img/svg/42.svg',
+        pokeName: 'raichu',
+        pokeFood: 80,
+        pokeClean: 90,
+        pokePlay: 99
+    },
+    {
+        pokeHealth: 700,
+        pokeImg: '/img/svg/43.svg',
+        pokeName: 'rattata',
+        pokeFood: 95,
+        pokeClean: 90,
+        pokePlay: 110
+    },
+    {
+        pokeHealth: 750,
+        pokeImg: '/img/svg/44.svg',
+        pokeName: 'scyther',
+        pokeFood: 65,
+        pokeClean: 70,
+        pokePlay: 55
+    },
+    {
+        pokeHealth: 800,
+        pokeImg: '/img/svg/45.svg',
+        pokeName: 'slowpoke',
+        pokeFood: 100,
+        pokeClean: 120,
+        pokePlay: 80
+    },
+    {
+        pokeHealth: 400,
+        pokeImg: '/img/svg/46.svg',
+        pokeName: 'snorlax',
+        pokeFood: 70,
+        pokeClean: 75,
+        pokePlay: 90
+    },
+    {
+        pokeHealth: 600,
+        pokeImg: '/img/svg/47.svg',
+        pokeName: 'squirtle',
+        pokeFood: 95,
+        pokeClean: 90,
+        pokePlay: 110
+    },
+    {
+        pokeHealth: 500,
+        pokeImg: '/img/svg/48.svg',
+        pokeName: 'vaporeon',
+        pokeFood: 55,
+        pokeClean: 60,
+        pokePlay: 70
+    },
+    {
+        pokeHealth: 800,
+        pokeImg: '/img/svg/49.svg',
+        pokeName: 'venusaur',
+        pokeFood: 65,
+        pokeClean: 60,
+        pokePlay: 67
+    },
+    {
+        pokeHealth: 800,
+        pokeImg: '/img/svg/50.svg',
+        pokeName: 'wartortle',
+        pokeFood: 60,
+        pokeClean: 70,
+        pokePlay: 80
+    },
+]
+
