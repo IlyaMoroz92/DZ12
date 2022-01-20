@@ -27,10 +27,10 @@ function addPokemon () {
     const divPlay = document.createElement('div');
     const btnPlay = document.createElement('button');
     const divMain = document.createElement('div');
-    const prHealth = document.createElement('progress')
-    const prFood = document.createElement('progress')
-    const prClean = document.createElement('progress')
-    const prPlay = document.createElement('progress')
+    const prHealth = document.createElement('progress');
+    const prFood = document.createElement('progress');
+    const prClean = document.createElement('progress');
+    const prPlay = document.createElement('progress');
     const divLevels = document.createElement('div');
     const divHealthLevel = document.createElement('div');
     const divFoodLevel = document.createElement('div');
