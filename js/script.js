@@ -96,8 +96,9 @@ function addPokemon () {
     divPokemon.appendChild(divImg);
     divPokemon.appendChild(divLevels);
     divPokemon.appendChild(divButtons);
-    divMain.appendChild(divPokemon);
+    divMain.appendChild(divPokemon); 
     body.appendChild(divMain);
+
 
     life();
 
@@ -114,15 +115,15 @@ function addPokemon () {
     })
 
     function life () {
-        setInterval(() =>{
-
+        const int = setInterval(() =>{
             if (prFood.value > 0 && prClean.value > 0 && prPlay.value > 0) {
                 prHealth.value ++;
             }
-            if (prHealth.value > 0) {img.style.transform = 'scale(-1, 1)'}
             if(prHealth.value == 0) {
-                return 0,
-                divPokemon.style.backgroundColor = 'black',
+                clearInterval(int);
+                img.style.transform = 'scale(-1, 1)';
+                img.style.filter = 'grayscale(100%)'; 
+                divPokemon.style.backgroundColor = '#68686888',
                 btnFood.disabled = 'disabled',
                 btnClean.disabled = 'disabled',
                 btnPlay.disabled = 'disabled'
@@ -140,8 +141,9 @@ function addPokemon () {
             if (prPlay.value == 0) {
                 prHealth.value --;
             }
-        }, 100)
+        }, 500)
     } 
 
 }
 
+console.log('dfdfd')

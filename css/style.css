@@ -1,8 +1,12 @@
 body {
     background-image: url(/img/1618592772_14-funart_pro-p-oboi-fon-anime-polyana-15.jpg);
-    background-size: 100%;
-    background-attachment: fixed;
     font-size: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 * {
@@ -13,14 +17,15 @@ body {
 .add {
     width: 100%;    
     position: fixed;
+    z-index: 20;
 }
 
 .btn {
     margin-bottom: 30px;
+    width: 100vw;
 }
 
 .divmain {
-    display: inline-block;
     margin: 0 auto;
 }
 
@@ -38,7 +43,7 @@ img {
 
 .pokemon {
     border: 1px solid rgb(53, 11, 94);
-    background-color: rgba(55, 17, 90, 0.207);
+    background-color: #37115a35;
     border-radius: 10px;
     width: 170px;
     margin: 7px;
@@ -109,3 +114,4 @@ span {
     background-image: url(/img/icons8-открыть-pokeball-96.png);
     background-color: transparent;
 }
+
